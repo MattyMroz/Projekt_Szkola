@@ -110,11 +110,16 @@
     <div class="container">
         <div class="row">
             <div class="row">
-
-                <nav class="col-lg-3 col-md-6 col-12 order-md-1 order-2 mt-md-3 mt-sm-1">
+                <nav class="col-lg-3 col-md-4 order-md-1 order-2 my-3">
                     <div class="list-group" id="list-tab" role="tablist">
                         <a class="list-group-item list-group-item-action active " id="list-home-list"
                             data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Home</a>
+                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list"
+                            href="#list-profile" role="tab" aria-controls="list-profile">Profile</a>
+                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list"
+                            href="#list-messages" role="tab" aria-controls="list-messages">Messages</a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list"
+                            href="#list-settings" role="tab" aria-controls="list-settings">Settings</a>
                         <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list"
                             href="#list-profile" role="tab" aria-controls="list-profile">Profile</a>
                         <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list"
@@ -125,117 +130,166 @@
                 </nav>
 
                 <div class="col order-md-2 order-1 mt-3">
-                    <div class="col-12">
-                        <div class="tab-content" id="nav-tabContent">
-                            <div class="tab-pane fade show active" id="list-home" role="tabpanel"
-                                aria-labelledby="list-home-list">
-                                <h3>Home</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nostrum dolor
-                                    earum, nulla nam voluptatibus culpa nihil alias laboriosam accusantium consectetur
-                                    consequatur repellat minus hic sint distinctio corrupti explicabo sapiente modi
-                                    corporis blanditiis cupiditate atque necessitatibus? Facilis ad id corporis!
-                                </p>
-                            </div>
-                            <div class="tab-pane fade" id="list-profile" role="tabpanel"
-                                aria-labelledby="list-profile-list">
-                                <h3>Profile</h3>
-                                <p>
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt impedit in dicta
-                                    repellendus, laudantium facere laboriosam aliquam recusandae expedita doloribus
-                                    perferendis quae hic quaerat accusamus quibusdam veritatis. Nostrum, distinctio
-                                    itaque! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus aut
-                                    neque perferendis at! Inventore vitae saepe quod ducimus distinctio quibusdam
-                                    laborum enim, laboriosam quis dignissimos. Dolore commodi eum possimus repudiandae.
-                                </p>
-                            </div>
-                            <div class="tab-pane fade" id="list-messages" role="tabpanel"
-                                aria-labelledby="list-messages-list">
-                                <h3>Messages</h3>
-                                <p>
-                                    Lorem, Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta dolor
-                                    obcaecati eaque perferendis? Similique facere architecto, mollitia dolorum molestias
-                                    id excepturi quae earum unde ex magnam fugiat eius saepe quas.
-                                </p>
-                            </div>
-                            <div class="tab-pane fade" id="list-settings" role="tabpanel"
-                                aria-labelledby="list-settings-list">
-                                <h3>Settings</h3>
-                                <p>
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque soluta qui excepturi
-                                    dolor inventore, ipsa, quasi architecto ullam enim, esse placeat fugit! Aut facilis
-                                    natus cumque ratione laboriosam eaque voluptatem quis sed. Quam corrupti officiis
-                                    sed nihil cumque quaerat maiores consequuntur suscipit neque pariatur exercitationem
-                                    consectetur, sapiente et ut, veniam nobis, molestias quae incidunt. Reiciendis at
-                                    laborum deleniti similique magni odit iste! Fuga dolorem nostrum quaerat ipsum.
-                                    Alias ratione laudantium blanditiis, facere minima veritatis perferendis vero ut
-                                    obcaecati quam cupiditate doloribus culpa velit unde, maxime voluptatem odit
-                                    nesciunt. Laborum laudantium provident dolorum aut excepturi earum nulla culpa vitae
-                                    ad beatae.
-                                </p>
-                            </div>
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="list-home" role="tabpanel"
+                            aria-labelledby="list-home-list">
+                            <h3>Home</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nostrum dolor
+                                earum, nulla nam voluptatibus culpa nihil alias laboriosam accusantium consectetur
+                                consequatur repellat minus hic sint distinctio corrupti explicabo sapiente modi
+                                corporis blanditiis cupiditate atque necessitatibus? Facilis ad id corporis!
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia quasi ex placeat
+                                praesentium veritatis? Aliquid soluta amet sequi, nesciunt veniam esse fuga
+                                accusantium dolor voluptates dignissimos quam unde distinctio veritatis?
+                            </p>
+                        </div>
+                        <div class="tab-pane fade" id="list-profile" role="tabpanel"
+                            aria-labelledby="list-profile-list">
+                            <h3>Profile</h3>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt impedit in dicta
+                                repellendus, laudantium facere laboriosam aliquam recusandae expedita doloribus
+                                perferendis quae hic quaerat accusamus quibusdam veritatis. Nostrum, distinctio
+                                itaque! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus aut
+                                neque perferendis at! Inventore vitae saepe quod ducimus distinctio quibusdam
+                            </p>
+                        </div>
+                        <div class="tab-pane fade" id="list-messages" role="tabpanel"
+                            aria-labelledby="list-messages-list">
+                            <h3>Messages</h3>
+                            <p>
+                                Lorem, Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta dolor
+                                obcaecati eaque perferendis? Similique facere architecto, mollitia dolorum molestias
+                                id excepturi quae earum unde ex magnam fugiat eius saepe quas.
+                            </p>
+                        </div>
+                        <div class="tab-pane fade" id="list-settings" role="tabpanel"
+                            aria-labelledby="list-settings-list">
+                            <h3>Settings</h3>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque soluta qui excepturi
+                                dolor inventore, ipsa, quasi architecto ullam enim, esse placeat fugit! Aut facilis
+                                natus cumque ratione laboriosam eaque voluptatem quis sed. Quam corrupti officiis
+                                sed nihil cumque quaerat maiores consequuntur suscipit neque pariatur exercitationem
+                                consectetur, sapiente et ut, veniam nobis, molestias quae incidunt. Reiciendis at
+                                laborum deleniti similique magni odit iste! Fuga dolorem nostrum quaerat ipsum.
+                                Alias ratione laudantium blanditiis, facere minima veritatis perferendis vero ut
+                                obcaecati quam cupiditate doloribus culpa velit unde, maxime
+                            </p>
                         </div>
                     </div>
+
 
                     <div id="hidden1" class="row">
                         <div class="col-6">
-                            asdasda
+                            <h3>Lorem</h3>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, ut assumenda et sequi beatae
+                            perferendis! Debitis excepturi natus suscipit recusandae quae asperiores quod laborum
+                            assumenda molestias, sit eveniet, odio labore!
                         </div>
-                        <div class="col-6">
-                            <div id="map-container-google-1" class="z-depth-1-half map-container">
-                                <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
-                                  style="border:0" allowfullscreen></iframe>
-                              </div>
+                        <div class="col-6 container-fluid">
+                            <div class="map-responsive">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2446.921192384199!2d22.28104831579453!3d52.17212627974988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471f5bb2a7e75aed%3A0x47d8cb735af52cad!2sZesp%C3%B3%C5%82%20Szk%C3%B3%C5%82%20Ponadgimnazjalnych%20nr%201%20w%20Siedlcach!5e0!3m2!1spl!2spl!4v1633708314362!5m2!1spl!2spl"
+                                    width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen>
+                                </iframe>
+                            </div>
                         </div>
                     </div>
                 </div>
-
             </div>
 
-            <div id="hidden2" class="col-12">
-                <h3>4.</h3>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde in quisquam aut! Error
-                    accusantium laudantium voluptate vero assumenda quia cumque harum minima. Possimus
-                    consequatur quos obcaecati perspiciatis sapiente mollitia vero?
-                </p>
+            <div id="hidden2" class="col-12 container-fluid ">
+                <div class="col-12 mb-3">
+                    <h3>Lorem</h3>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, ut assumenda et sequi beatae
+                    perferendis! Debitis excepturi natus suscipit recusandae quae asperiores quod laborum
+                    assumenda molestias, sit eveniet, odio labore!
+                </div>
+
+                <div class="map-responsive">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2446.921192384199!2d22.28104831579453!3d52.17212627974988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471f5bb2a7e75aed%3A0x47d8cb735af52cad!2sZesp%C3%B3%C5%82%20Szk%C3%B3%C5%82%20Ponadgimnazjalnych%20nr%201%20w%20Siedlcach!5e0!3m2!1spl!2spl!4v1633708314362!5m2!1spl!2spl"
+                        width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen>
+                    </iframe>
+                </div>
             </div>
-
-            <footer class="col-lg-12">
-                <h3>5.</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus exercitationem, earum,
-                    repellendus
-                    perferendis alias debitis ad blanditiis quia vel inventore laboriosam, minus veniam ducimus.
-                    Facilis
-                    ad dolorem suscipit et doloribus.
-                </p>
-            </footer>
-
         </div>
     </div>
 
+    <footer class="text-center text-lg-start text-secondary mt-3" style="background-color: #f5f5f5">
+        <section class="d-flex justify-content-between">
+            <div class="container text-center text-md-start mt-5 justify-content-between">
+
+                <div class="row mt-3">
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold">Company name</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #000000; height: 2px" />
+                        <p>
+                            Here you can use rows and columns to organize your footer
+                            content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit.
+                        </p>
+                    </div>
+
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold">Products</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #000000; height: 2px" />
+                        <p>
+                            <a href="#!" class="text-secondary">MDBootstrap</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-secondary">MDWordPress</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-secondary">BrandFlow</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-secondary">Bootstrap Angular</a>
+                        </p>
+                    </div>
+
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold">Useful links</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #000000; height: 2px" />
+                        <p>
+                            <a href="#!" class="text-secondary">Your Account</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-secondary">Become an Affiliate</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-secondary">Shipping Rates</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-secondary">Help</a>
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <h6 class="text-uppercase fw-bold">Contact</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #000000; height: 2px" />
+                        <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+                        <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
+                        <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                        <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.1)">
+            © 2021 Copyright:
+            <a class="text-secondary" href="http://matty-m.ct8.pl/">Matty-m.ct8.pl</a>
+        </div>
+    </footer>
+
     <script src="js/bootstrap.bundle.js"></script>
-    <script type="text/javascript">
-        var idInterwalu;
-
-        function changeOfHideDiv() {
-            idInterwalu = setInterval(assigningHiding, 1);
-        }
-
-        function assigningHiding() {
-            var elem1 = document.getElementById("hidden1");
-            var elem2 = document.getElementById("hidden2");
-            if (window.innerWidth >= 992) {
-                elem1.style.display = "";
-                elem2.style.display = "none";
-            } else {
-                elem1.style.display = "none";
-                elem2.style.display = "";
-            }
-        }
-        changeOfHideDiv();
-    </script>
+    <script src="./script.js"></script>
 
 </body>
 
